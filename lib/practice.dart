@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main() {
-  stdout.write('Welcome to Dart!');
+  stdout.writeln('Welcome to Dart!');
   stdout.write('Enter your name:');
   var name = stdin.readLineSync();
   stdout.writeln("Hello, $name!");
@@ -10,6 +10,11 @@ void main() {
   if (number > 5) {
     stdout.write("Number is greater than 5");
   } else {
-    stdout.write("Number is 5 or less");
+    stdout.writeln("Number is 5 or less");
+  }
+  int i = 1;
+  while (i <= 5) {
+    stdout.writeln(i);
+    i++;
   }
 }
