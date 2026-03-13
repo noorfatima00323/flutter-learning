@@ -17,4 +17,7 @@ void main() {
     stdout.writeln(i);
     i++;
   }
+  for (int j = 1; j <= 5; j++) {
+    stdout.writeln('printing $j');
+  }
 }
