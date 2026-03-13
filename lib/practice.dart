@@ -20,4 +20,10 @@ void main() {
   for (int j = 1; j <= 5; j++) {
     stdout.writeln('printing $j');
   }
+  int k = 1;
+
+  do {
+    stdout.writeln(k);
+    k++;
+  } while (k <= 5);
 }
